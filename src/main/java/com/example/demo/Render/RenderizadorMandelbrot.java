@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.Render;
 
 import javax.swing.*;
 import java.awt.*;

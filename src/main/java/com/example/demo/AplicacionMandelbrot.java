@@ -1,6 +1,7 @@
 package com.example.demo;
 
-
+import com.example.demo.Render.RenderizadorMandelbrot;
+import com.example.demo.Trabajador.TrabajadorMandelbrot;
 
 import javax.swing.*;
 import java.awt.*;
@@ -74,7 +75,7 @@ public class AplicacionMandelbrot extends JFrame {
         executorService.shutdown();
     }
 
-    public static void main(String[] args) {
+    public static void run()  {
         SwingUtilities.invokeLater(() -> {
             AplicacionMandelbrot app = new AplicacionMandelbrot();
             app.setVisible(true);

@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.Calculadora;
 
 import java.awt.Color;
 import java.awt.image.BufferedImage;

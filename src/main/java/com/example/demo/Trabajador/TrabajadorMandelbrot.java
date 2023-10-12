@@ -1,4 +1,7 @@
-package com.example.demo;
+package com.example.demo.Trabajador;
+
+import com.example.demo.Calculadora.CalculadoraMandelbrot;
+import com.example.demo.Render.RenderizadorMandelbrot;
 
 import java.awt.image.BufferedImage;
 
